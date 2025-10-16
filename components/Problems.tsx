@@ -123,7 +123,9 @@ export default function Problems() {
                   ) : problem.icon === 'update' ? (
                     <UpdateIcon />
                   ) : (
-                    <Icon className="w-12 h-12 text-gray-400" strokeWidth={1.5} />
+                    <div className="w-12 h-12 bg-gray-200 rounded-lg flex items-center justify-center">
+                      <span className="text-gray-400 text-lg">?</span>
+                    </div>
                   )}
                 </div>
 

@@ -134,7 +134,7 @@ export default function AIInsights() {
                       marginBottom: '16px'
                     }}
                   >
-                    {insight.tag}
+                    Letsur
                   </div>
 
                   {/* Title */}
@@ -148,14 +148,7 @@ export default function AIInsights() {
                       lineHeight: '1.4'
                     }}
                   >
-                    {insight.titleEmoji && <span>{insight.titleEmoji}</span>}
-                    {insight.title}
-                    {insight.titleHighlight && (
-                      <span className="text-[#26C9A3]">{insight.titleHighlight}</span>
-                    )}
-                    {insight.titleEmojiEnd && <span>{insight.titleEmojiEnd}</span>}
-                    {insight.titleContinue}
-                    {insight.titleEnd}
+                    {insight.description}
                   </h3>
 
                   {/* Divider */}
